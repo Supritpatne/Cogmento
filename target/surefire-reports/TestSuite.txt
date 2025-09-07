@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.198 s <<< FAILURE! - in TestSuite
+testLayer.CreateNewDealPageTest.validateNewDeal  Time elapsed: 20.508 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" class="react-datepicker__navigation react-datepicker__navigation--next react-datepicker__navigation--next--with-time" aria-label="Next Month">...</button> is not clickable at point (262, 87). Other element would receive the click: <div class="ui secondary pointing menu header-title page-header" id="dashboard-toolbar">...</div>
+  (Session info: chrome=139.0.7258.155)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76d7c3098c3b42e9a31c08cd2ddaf05b, clickElement {id=f.0F87B72AF82ADF67042EC0D11D6E6344.d.50E85ABA0C5F7B48A8A6DDEBFAF76616.e.272}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59558}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59558/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (76d7c3098c3b42e9a31c08cd2ddaf05b)] -> xpath: //button[@class='react-datepicker__navigation react-datepicker__navigation--next react-datepicker__navigation--next--with-time']]
+Session ID: 76d7c3098c3b42e9a31c08cd2ddaf05b
+	at testLayer.CreateNewDealPageTest.validateNewDeal(CreateNewDealPageTest.java:36)
+
